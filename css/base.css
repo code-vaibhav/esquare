@@ -258,6 +258,7 @@ img, video {
   max-width: 100%;
   width: 100%;
   height: auto;
+  object-fit: contain;
 }
 
 /* ------------------------------------------------------------------- 
@@ -808,7 +809,7 @@ textarea {
             margin-bottom:10px;
         }
         .profile-card .profile-img img{
-            width:400px;
+            width:500px;
             height:auto;
             border-radius : 0px;
             transition: .3s ease;
@@ -937,3 +938,109 @@ textarea {
             border-radius:5px;
             background-color: #fff;
         }
+
+@font-face {
+  font-family: Fasthand;
+  src: url(../fonts/Fast\ Hand\ 400.otf);
+}
+
+/* #home .logo::before {
+  display: block;
+  content: "";
+  width: 3px;
+  height: 100%;
+  background-color: white;
+  margin: 0 auto 2.4rem;
+} */
+
+#home .logo div {
+  width: 4px; 
+  height: 100px; 
+  background-color: white; 
+  margin: 20px 10px; 
+  border-radius: 2px;
+}
+
+#home .home-images {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+#home img {
+  height: 20vh;
+  width: auto;
+}
+
+#home .home-text {
+  padding-top: 40px;
+  text-align: center;
+}
+
+#home .home-text h3 {
+  color: white;
+  font-size: 40px; 
+  font-weight: 400;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#home .home-text h1 {
+  color: white; 
+  font-family: 'Fasthand', cursive; 
+  font-size: 100px;
+}
+
+#home .bottom-design {
+  width: 100%; 
+  height: 100%; 
+  margin-top: -45%;
+}
+
+@media (max-width: 600px) {
+  #home {
+    height: 100%;
+  }
+  #home .home-images {
+    padding-top: 5vh;
+  }
+  #home .home-text h1 {
+    margin-bottom: 50px;
+  }
+  #home .bottom-design {
+    width: 100%;
+    height: 100%;
+    margin-top: -70%;
+  }
+  #home .home-text {
+    padding-top: 50px;
+  }
+  #home img {
+    height: 10vh;
+    width: auto;
+  }
+  #home .logo div {
+    width: 4px; 
+    height: 70px; 
+    background-color: white; 
+    margin: 20px 10px; 
+    border-radius: 2px;
+  }
+  #home .home-text h3 {
+    color: white;
+    font-size: 25px; 
+    font-weight: 300;
+  }
+  #home .home-text h1 {
+    color: white;
+    font-size: 60px; 
+    font-weight: 300;
+  }
+  #contact {
+    padding: 5rem 0 5rem !important;
+  }
+  #competitions {
+    padding: 5rem 0 5rem !important;
+  }
+}
