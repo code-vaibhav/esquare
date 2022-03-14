@@ -987,6 +987,13 @@ textarea {
   font-family: 'MTT-Milano-Medium', sans-serif;
 }
 
+#home .home-text h4 {
+  color: white;
+  font-size: 35px; 
+  font-weight: 400;
+  font-family: 'MTT-Milano-Medium', sans-serif;
+}
+
 /* Animation */
 .animate-this{
   animation: typewriter 4s steps(44) 1s 1 normal both,
