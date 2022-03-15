@@ -996,8 +996,8 @@ textarea {
 
 /* Animation */
 .animate-this{
-  animation: typewriter 4s steps(44) 1s 1 normal both,
-             /* blinkTextCursor 500ms steps(44) infinite normal; */
+  /* animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 300ms steps(44) infinite normal; */
 }
 
 #home .home-text h1 {
