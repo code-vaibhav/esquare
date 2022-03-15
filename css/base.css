@@ -1032,6 +1032,9 @@ textarea {
   #home {
     height: 100%;
   }
+  .margin {
+    margin-right: 0 !important;
+  }
   #competitions .competitions-content img { 
     height: 60px; 
     width: 60px;
